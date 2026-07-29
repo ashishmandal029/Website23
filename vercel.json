@@ -1,0 +1,14 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "app/api/generate/route.js": {
+      "maxDuration": 60
+    },
+    "app/api/check/route.js": {
+      "maxDuration": 60
+    },
+    "app/api/bulk/route.js": {
+      "maxDuration": 300
+    }
+  }
+}
